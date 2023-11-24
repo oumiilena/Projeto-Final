@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Tarefas</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Lista de Tarefas:</h1>
+        <input type="text" id="taskInput" placeholder="Digite sua tarefa">
+        <button onclick="addTask()">Adicionar Tarefa</button>
+      
+        <h2>Tarefas:</h2>
+        <ul id="taskList"></ul>
+        <h2>Buscar Tarefa por ID:</h2>
+        <input type="text" id="taskIdInput" placeholder="Digite o ID da tarefa">
+        <button onclick="getTaskById()">Buscar Tarefa</button>
+    </div>
+
+
+</body>
+</html>
